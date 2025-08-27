@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="pro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+  </style>
+</head>
+
+<body>
+  <script src="pro.js"></script>
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">SkIlls</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home -->
+  <section id="home">
+    <div class="wrapper">
+      <div class="pro">
+        <img class="profile" src="img/myphoto.jpg" alt="Veeramanikandan">
+      </div>
+      <div class="intro">
+        <!-- name with animation -->
+
+        <div class="name">
+          <h1 class="col">Hi,it's <span>Veeramanikandan C</span></h1>
+          <h1>I'm a <span class="auto"></span></h1>
+          <p>I am a passionate frontend developer with experience building beautiful and responsive web applications. I
+            love working with modern technologies and crafting smooth user experiences...!</p>
+        </div>
+
+        <!-- Script link this is  important -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- Internal Java script   -->
+        <script>
+          var typed = new Typed(".auto", {
+            strings: ["Front-end Web developer", "Youtuber", "Cyber Security Sapcialist", "Politician Member of TVK", "Front-end Web developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            looped: true
+          })
+        </script>
+
+        <!-- icon -->
+        <div class="icon">
+          <a href="https://www.youtube.com/@v.m.kveeramani-sp4yw" target="_blank"><i
+              class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100080739320191" target="_blank"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/v.m.k__official/" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+          <a href="https://x.com/Veerama5032Vmk" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div>
+          <a href="#projects"> <input class="work" type="submit" value="Visit My Work"></a>
+          <a href="#contact"> <input class="work yt" type="submit" value="Hire Me"></a>
+          <button class="work BT"><i class="fa-solid fa-rotate-right"></i></button>
+          <!-- Internal javascript -->
+          <script>
+            const button = document.querySelector("button");
+            button.addEventListener("click", () => {
+              window.location.reload();
+            });
+          </script>
+        </div>
+      </div>
+  </section>
+
+  <!-- about -->
+  <section id="about">
+    <div class="wra">
+      <div class="about">
+        <h1>About</h1>
+        <p>I'm a Computer Science student passionate about cybersecurity, web development,Content creation,Vlogging, and
+          exploring new technologies. I love solving problems and building creative projects.</p>
+      </div>
+      <div>
+        <img class="img2" src="img/myphoto.jpg" alt="image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="skill">
+      <h1 class="skillhead">My Skills</h1>
+      <li>
+        <h3 class="skillogo"><i class="fa-brands fa-python"></i></h3>
+        <span class="bar">90%<span class="python"></span></span>
+      </li>
+      <li>
+        <h3 class="skillogo"> <i class="fa-brands fa-java"></i></h3>
+        <span class="bar">80%<span class="java"></span></span>
+      </li>
+      <li>
+        <h3 class="skillogo"><i class="fa-brands fa-html5"></i></h3>
+        <span class="bar">79%<span class="html"></span></span>
+      </li>
+      <li>
+        <h3 class="skillogo"><i class="fa-brands fa-css3"></i></h3>
+        <span class="bar">75%<span class="css"></span></span>
+      </li>
+      <li>
+        <h3 class="skillogo"><i class="fa-brands fa-square-js"></i></h3>
+        <span class="bar">65%<span class="javascript"></span></span>
+      </li>
+      <li>
+        <h3 class="skillogo"><i class="fa-brands fa-react"></i></h3>
+        <span class="bar">80%<span class="react"></span></span>
+      </li>
+    </div>
+  </section>
+
+  <!-- project -->
+  <section id="projects">
+    <div class="hed">
+      <h1>My Project Works</h1>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img src="img/ph6.jpg" alt="Project 1">
+        <div class="data">
+          <h1>Project 1</h1>
+          <p>About This Website is Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ph2.jpg" alt="Project 2">
+        <div class="data">
+          <h1>Project 2</h1>
+          <p>About This Website is Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ph3.jpg" alt="Project 3">
+        <div class="data">
+          <h1>Project 3</h1>
+          <p>About This Website is Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <img src="img/ph4.jpg" alt="Project 4">
+        <div class="data">
+          <h1>Project 4</h1>
+          <p>About This Website is Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ph5.jpg" alt="Project 5">
+        <div class="data">
+          <h1>Project 5</h1>
+          <p>About This Website is Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="contain">
+      <form id="form">
+        <h1 class="conhead">Contact Us</h1>
+        <div class="input-grp">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+          <div class="error"></div>
+        </div>
+        <div class="input-grp">
+          <label for="email">G-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Enter your G-mail" required>
+          <div class="error"></div>
+        </div>
+        <div class="input-grp">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" placeholder="Enter your message" rows="10" required></textarea>
+          <div class="error"></div>
+        </div>
+        <input class="button" type="submit" value="Hire Me">
+      </form>
+      <p id="response"></p>
+    </div>
+  </section>
+
+  <!-- footer    -->
+  <footer class="copy">
+    <p>&copy; 2025 VMK__Veeramanikandan C. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
