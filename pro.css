@@ -591,7 +591,8 @@
     color: #dd0505;
     place-items: center;
     font-size: larger;
-    margin: 100px auto;
+    margin: 20px auto;
+    text-align:center;
   }
 
   .container {
@@ -795,4 +796,5 @@
     box-shadow: 3px 3px 20px #dd0505;
 
   }
+
 
